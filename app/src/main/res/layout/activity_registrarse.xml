@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/parachonegra"
+    tools:context=".Registrarse">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BE0B6480" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="50dp">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/imagen1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/redondo"
+                    android:hint="Ingresa tu nombre"
+                    android:drawableLeft="@drawable/ic_user"
+                    android:textAlignment="center"
+                    android:textColorHint="#3A95B8"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <EditText
+                    android:inputType="textEmailAddress"
+                    android:layout_width="305dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/redondo"
+                    android:hint="Ingresa tu correo electronico"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:textAlignment="center"
+                    android:textColorHint="#3A95B8"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <EditText
+                    android:inputType="textVisiblePassword"
+                    android:layout_width="305dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/redondo"
+                    android:hint="Ingresa tu contraseña"
+                    android:drawableLeft="@drawable/ic_key"
+                    android:textAlignment="center"
+                    android:textColorHint="#3A95B8"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp">
+
+                <EditText
+                    android:inputType="textVisiblePassword"
+                    android:layout_width="305dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/redondo"
+                    android:hint="Confirma tu contraseña"
+                    android:drawableLeft="@drawable/ic_padlock"
+                    android:textAlignment="center"
+                    android:textColorHint="#3A95B8"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="40dp">
+
+                <Button
+                    android:layout_gravity="center"
+                    android:layout_width="303dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bredondo"
+                    android:text="Registrarme"
+                    android:textColor="#F3F3F3"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Ya tengo cuenta, ingresar!!"
+                    android:textColor="#F3F3F3"
+                    android:textColorLink="#F3F3F3"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

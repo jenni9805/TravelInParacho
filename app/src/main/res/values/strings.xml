@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">De viaje en Paracho</string>
+    <string name="inicio">Home</string>
+    <string name="restaurante">Restaurant</string>
+    <string name="hotel">Hotels</string>
+    <string name="bar">Cocktail bar</string>
+    <string name="eventos">Events</string>
+    <string name="realidad">Augmented Reality</string>
+</resources>
