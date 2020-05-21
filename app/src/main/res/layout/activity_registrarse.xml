@@ -70,7 +70,7 @@
                 android:paddingTop="30dp">
 
                 <EditText
-                    android:id="@+id/txtLastname"
+                    android:id="@+id/txtLastName"
                     android:layout_width="305dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
@@ -130,7 +130,7 @@
                 android:paddingTop="40dp">
 
                 <Button
-                    android:onClick="register"
+                    android:onClick="registro"
                     android:layout_gravity="center"
                     android:layout_width="303dp"
                     android:layout_height="40dp"
