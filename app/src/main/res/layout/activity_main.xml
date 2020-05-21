@@ -70,6 +70,7 @@
                     android:drawableLeft="@drawable/ic_key"
                     android:ems="10"
                     android:hint="Ingresa tu contraseña"
+                    android:password="true"
                     android:textAlignment="center"
                     android:textColorHint="#3A95B8" />
             </LinearLayout>

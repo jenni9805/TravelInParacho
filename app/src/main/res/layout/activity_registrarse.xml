@@ -80,15 +80,16 @@
                 android:paddingTop="30dp">
 
                 <EditText
-                    android:inputType="textVisiblePassword"
                     android:layout_width="305dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
                     android:background="@drawable/redondo"
-                    android:hint="Ingresa tu contraseña"
                     android:drawableLeft="@drawable/ic_key"
+                    android:hint="Ingresa tu contraseña"
+                    android:inputType="textVisiblePassword"
+                    android:password="true"
                     android:textAlignment="center"
-                    android:textColorHint="#3A95B8"/>
+                    android:textColorHint="#3A95B8" />
 
             </LinearLayout>
 
@@ -99,15 +100,16 @@
                 android:paddingTop="30dp">
 
                 <EditText
-                    android:inputType="textVisiblePassword"
                     android:layout_width="305dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
                     android:background="@drawable/redondo"
-                    android:hint="Confirma tu contraseña"
                     android:drawableLeft="@drawable/ic_padlock"
+                    android:hint="Confirma tu contraseña"
+                    android:inputType="textVisiblePassword"
+                    android:password="true"
                     android:textAlignment="center"
-                    android:textColorHint="#3A95B8"/>
+                    android:textColorHint="#3A95B8" />
 
             </LinearLayout>
 
