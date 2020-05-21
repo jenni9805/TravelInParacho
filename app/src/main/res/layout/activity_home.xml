@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/fonhome"
+    android:background="@drawable/home"
     android:weightSum="10"
     tools:context=".home" >
 
@@ -101,7 +101,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/hostel" />
+                    android:src="@drawable/sign" />
 
                 <TextView
                     android:text="@string/hotel"
