@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun forgotPassword(view:View){
-
+        startActivity(Intent(this,ForgotPassActivity::class.java))
     }
 
     fun login(view:View){
