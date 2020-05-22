@@ -18,6 +18,8 @@
             android:id="@+id/imageHome"
             android:layout_width="90dp"
             android:layout_height="90dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
             android:src="@drawable/homerun" />
 
         <TextView
@@ -26,7 +28,7 @@
             android:layout_height="wrap_content"
             android:text="@string/inicio"
             android:textColor="@android:color/white"
-            android:textSize="34sp"
+            android:textSize="40sp"
             android:layout_centerInParent="true"
             />
 
@@ -61,19 +63,19 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/food" />
 
                 <TextView
                     android:text="@string/restaurante"
                     android:textAlignment="center"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center_horizontal" />
+                    android:gravity="center_horizontal"/>
 
             </LinearLayout>
 
@@ -98,16 +100,16 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/sign" />
 
                 <TextView
                     android:text="@string/hotel"
                     android:textAlignment="center"
-                    android:textColor="@color/colorAccent"
-                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:textSize="16dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal" />
@@ -135,15 +137,15 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/cheers" />
 
                 <TextView
                     android:text="@string/bar"
                     android:textAlignment="center"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="#000000"
                     android:textSize="16dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -172,15 +174,15 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/event" />
 
                 <TextView
                     android:text="@string/eventos"
                     android:textAlignment="center"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="#000000"
                     android:textSize="16dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -209,17 +211,17 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@drawable/mobile" />
 
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="@string/realidad"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="#000000"
                     android:textSize="16dp" />
 
             </LinearLayout>
